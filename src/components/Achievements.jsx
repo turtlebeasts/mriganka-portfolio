@@ -8,7 +8,7 @@ import deadface2020 from "../assets/achievements/deadface2020.png";
 export default function Achievements() {
   return (
     <div className="py-10 px-4 md:px-40 bg-white text-black text-center">
-      <h1 className="text-6xl font-bold py-20">ACHIEVEMENTS</h1>
+      <h1 className="text-3xl md:text-6xl font-bold py-20">ACHIEVEMENTS</h1>
       <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
         <img
           src={gateways2023}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url(assets/image.png);
+  background-size: cover;
+  background-attachment: fixed;
+}

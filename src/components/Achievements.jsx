@@ -7,9 +7,9 @@ import deadface2020 from "../assets/achievements/deadface2020.png";
 
 export default function Achievements() {
   return (
-    <div className="py-10 px-4 md:px-40 bg-white text-black text-center">
+    <div className="py-10 md:px-40 bg-white text-black text-center">
       <h1 className="text-3xl md:text-6xl font-bold py-20">ACHIEVEMENTS</h1>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row ">
         <img
           src={gateways2023}
           alt="gateways2023"
@@ -35,7 +35,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row">
         <img
           src={hacktoberfest2021}
           alt="hacktoberfest2021"
@@ -56,7 +56,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row">
         <img
           src={Holopin_2022_10_03}
           alt="Holopin_2022_10_03"
@@ -83,7 +83,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row">
         <img
           src={cyberhacktics2020}
           alt="cyberhacktics2020"
@@ -108,7 +108,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row">
         <img src={deadface2021} alt="deadface2021" className="w-80 flex-1" />
         <div className="text-left py-10 md:py-0 flex-1">
           <h1 className="text-2xl font-medium">
@@ -129,7 +129,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row m-10">
+      <div className="flex items-center space-x-4 flex-col md:flex-row">
         <img src={deadface2020} alt="deadface2020" className="w-80 flex-1" />
         <div className="text-left py-10 md:py-0 flex-1">
           <h1 className="text-2xl font-medium">

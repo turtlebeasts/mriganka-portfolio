@@ -1,8 +1,10 @@
+import resume from "../assets/resume.pdf";
+
 const ResumeDownload = () => {
   return (
     <div className="flex justify-center items-center my-8">
       <a
-        href="/resume.pdf"
+        href={resume}
         download
         className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center space-x-2"
       >

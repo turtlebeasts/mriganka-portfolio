@@ -35,7 +35,7 @@ export default function Achievements() {
           </p>
         </div>
       </div>
-      <div className="flex items-center space-x-4 flex-col md:flex-row">
+      <div className="flex items-center space-x-4 flex-col md:flex-row md:pt-20">
         <img
           src={hacktoberfest2021}
           alt="hacktoberfest2021"

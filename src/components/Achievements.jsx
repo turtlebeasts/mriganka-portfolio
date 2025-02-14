@@ -4,11 +4,20 @@ import Holopin_2022_10_03 from "../assets/achievements/Holopin-2022-10-03.png";
 import cyberhacktics2020 from "../assets/achievements/cyberhacktics2020.png";
 import deadface2021 from "../assets/achievements/deadface2021.png";
 import deadface2020 from "../assets/achievements/deadface2020.png";
+import { motion } from "framer-motion";
 
 export default function Achievements() {
   return (
     <div className="py-10 md:px-40 bg-white text-black text-center">
-      <h1 className="text-3xl md:text-6xl font-bold py-20">ACHIEVEMENTS</h1>
+      <motion.h1
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1 }}
+        className="text-3xl md:text-6xl font-bold py-20"
+      >
+        ACHIEVEMENTS
+      </motion.h1>
       <div className="flex items-center space-x-4 flex-col md:flex-row ">
         <img
           src={gateways2023}
